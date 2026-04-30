@@ -14,7 +14,7 @@
     },
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.personal.calorietracker",
+      "bundleIdentifier": "com.dmytro91.calorietracker",
       "infoPlist": {
         "NSCameraUsageDescription": "Camera is used to photograph your meals for calorie analysis.",
         "NSPhotoLibraryUsageDescription": "Photo library access lets you pick meal photos for analysis."
