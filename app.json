@@ -17,7 +17,8 @@
       "bundleIdentifier": "com.dmytro91.calorietracker",
       "infoPlist": {
         "NSCameraUsageDescription": "Camera is used to photograph your meals for calorie analysis.",
-        "NSPhotoLibraryUsageDescription": "Photo library access lets you pick meal photos for analysis."
+        "NSPhotoLibraryUsageDescription": "Photo library access lets you pick meal photos for analysis.",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "plugins": [
@@ -27,6 +28,11 @@
           "cameraPermission": "Allow Calorie Tracker to use your camera to photograph meals."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a3969ccc-5cfd-4155-b96e-3de9d464326a"
+      }
+    }
   }
 }
