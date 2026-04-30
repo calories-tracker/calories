@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Calorie Tracker",
+    "slug": "calorie-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FAFAF7"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.personal.calorietracker",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Camera is used to photograph your meals for calorie analysis.",
+        "NSPhotoLibraryUsageDescription": "Photo library access lets you pick meal photos for analysis."
+      }
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Calorie Tracker to use your camera to photograph meals."
+        }
+      ]
+    ]
+  }
+}
